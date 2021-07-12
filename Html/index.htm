@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de rendimentos</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Simulador de rendimentos</h1>
+        </div>
+    </header>
+    <main>
+        <div class="instrucao">
+            <h3>Coloque o valor a baixo para fazer a simulação</h3>
+            <input type="text" id="inputValor" placeholder="R$ ">
+            <div class="escolhaOndeDeixar">
+                Aonde você vai deixar seu dinherio?
+            </div>
+            <button class="nubank">NUBANK</button>
+            <button class="picpay">PICPAY</button>
+            <button class="tesouro-selic">TESOURO SELIC 2024"</button>
+            <button class="tesouro-selic">TESOURO SELIC 2027</button>
+            <button class="poupanca">POUPANÇA</button>
+            <div>
+                <input type="text" id="inputYears" list="anosData" placeholder="Escolha por quantos anos">
+                <datalist id="anosData">
+                <option>1 Ano</option>
+                <option>2 Anos</option>
+                <option>5 Anos</option>
+                <option>10 Anos</option>
+                <option>20 Anos</option>
+            </datalist>
+            </div>
+            <button type="text" id="calcular">calcular</button>
+            <p class="resultado"> resultado é <span></span></p>
+
+    </main>
+</body>
+<script src="../Js/main.js"></script>
+
+</html>

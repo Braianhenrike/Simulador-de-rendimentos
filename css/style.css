@@ -1,0 +1,106 @@
+:root {
+    background: url(/img/background.png);
+    Background-size: cover
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    color: white;
+    font-family: 'Arial black', times;
+    font-size: 40px;
+    text-align: center;
+    background-color: black;
+    margin-top: 0%;
+}
+
+.instrucao {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.escolhaOndeDeixar {
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Arial black', times;
+}
+
+.bancos {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+main nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.nubank {
+    background-color: rgb(67, 7, 179);
+    height: 3.5rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 0.5rem;
+    font: 500 1rem "DM Sans", sans-serif;
+    transition: background 0.3s;
+}
+
+.nubank:hover {
+    background: rgb(42, 8, 105);
+}
+
+.picpay {
+    background-color: rgb(3, 114, 49);
+    height: 3.5rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 0.5rem;
+    font: 500 1rem "DM Sans", sans-serif;
+    transition: background 0.3s;
+}
+
+.picpay:hover {
+    background: rgb(9, 88, 26);
+}
+
+.tesouro-selic {
+    background-color: rgb(60, 81, 177);
+    height: 3.5rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 0.5rem;
+    font: 500 1rem "DM Sans", sans-serif;
+    transition: background 0.3s;
+}
+
+.tesouro-selic:hover {
+    background: rgb(44, 116, 224);
+}
+
+.poupanca {
+    background-color: rgb(141, 48, 48);
+    height: 3.5rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 0.5rem;
+    font: 500 1rem "DM Sans", sans-serif;
+    transition: background 0.3s;
+}
+
+.poupanca:hover {
+    background: rgb(219, 109, 58);
+}
+
+.resultado {
+    color: antiquewhite;
+}
